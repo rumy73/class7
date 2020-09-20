@@ -1,0 +1,147 @@
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+
+.about{
+  width: 100%;
+  float: left;
+  padding: 20px 0px;
+}
+
+.about-head{
+
+}
+
+.about-img-position{
+  width: 250px;
+    display: block;
+    margin: 0 auto;
+}
+
+.nav-link{
+  color: #6b93a6!important;
+}
+
+.nav-item{
+  margin: 0px 12px;
+  font-family: 'Myriad Pro Regular';
+}
+
+.about-body{
+  width: 100%;
+    float: left;
+    padding: 40px 0px;
+}
+
+.about-item{
+
+}
+
+.about-item h2{
+  color: #333333;
+  font-size: 45px;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.about-item p{
+  margin-top: 12%;
+    color: #6b6b6b;
+    font-size: 16px;
+    text-align: justify;
+    font-family: Myriad Pro Regular;
+}
+
+.about-car{
+  width: 100%;
+    float: left;
+    padding: 45px 20px;
+}
+
+.about-car-img{
+
+}
+
+.about-car p{
+  text-align: justify;
+    margin-left: 25px;
+    font-size: 16px;
+    box-sizing: border-box;
+    margin-top: 70px;
+    color: #6b6b6b;
+    padding: 0px 15px;
+    font-family: Myriad Pro Regular;
+}
+
+
+footer{
+    width: 100%;
+    float: left;
+    background-color: #ef4035;
+    padding: 20px 0px;
+}
+
+.footer-content{
+    padding: 20px 0px;
+}
+
+
+.footer-content p{
+   color: white;
+    font-size: 15px;
+    margin: 0 auto;
+}
+
+
+
+
+@media(max-width:600px){
+    .footer-content p {
+    color: white;
+    font-size: 15px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+.about-item h2 {
+    color: #333333;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+  }
+
+
+}
+
+
+@media(min-width:600.1px) and (max-width:768px){
+    
+.footer-content p {
+    color: white;
+    font-size: 15px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+
+
+@media(min-width:768.1px) and (max-width:992px){
+
+.footer-content p {
+    color: white;
+    font-size: 15px;
+    margin: 0 auto;
+    width: 130%;
+}
+
+}
+
+
+@media(min-width:992.1px) and (max-width:1200px){
+
+}
